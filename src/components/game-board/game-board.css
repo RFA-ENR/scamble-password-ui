@@ -1,0 +1,35 @@
+.tile {
+  padding: 20px;
+  height: 80px;
+  width: 80px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  /* margin-bottom: 5px; */
+  box-sizing: border-box;
+}
+
+.emptyTile {
+  padding: 20px;
+  height: 80px;
+  width: 80px;
+  box-sizing: border-box;
+}
+
+.board {
+  margin: auto;
+  width: 270px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.board > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.image-button {
+  margin: 5px !important;
+}
